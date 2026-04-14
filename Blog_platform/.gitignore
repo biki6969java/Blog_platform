@@ -1,0 +1,52 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+
+.vscode/
+src/main/resources/application-local.properties
+.env
+# Already have target/ but add this too
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Sensitive config (catch variations)
+application-dev.properties
+application-prod.properties
+*-secret.properties
+
+node_modules/
+dist/
+.env.local
+.env.production
